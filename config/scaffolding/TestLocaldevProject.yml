@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/Bharathi-Thammisetty-IBM
   gitUsername: Bharathi-Thammisetty-IBM
   gitBranch: main
+services:
+- serviceName: project.testlocaldev.integrations:DB_git
+  packages:
+  - name: TestLocaldevProject
+    version: "1.0"
